@@ -1,0 +1,63 @@
+@media only screen and (max-width: 600px) {
+/*INICIA MENU*/
+.nav-container{
+    position: relative;
+   }
+
+   .nav-container .shop{
+       display:none;
+   }
+
+   .nav-container .menu-bar{
+       display: block;
+       grid-column: 8/9;
+       font-size: 2rem;
+       cursor:pointer;
+   }
+
+   .menu{
+       position: absolute;
+       width: 100%;
+       height: 70vh;
+       display:grid;
+       align-items: center;
+       background-color: rgba(251, 94, 66, 0.89);
+       margin-top: 50em;
+       transform: translateX(400%);
+       -webkit-transform: translateX(400%);
+       -moz-transform: translateX(400%);
+       -ms-transform: translateX(400%);
+       -o-transform: translateX(400%);
+       transition: all 1s;
+       -webkit-transition: all 1s;
+       -moz-transition: all 1s;
+       -ms-transition: all 1s;
+       -o-transition: all 1s;
+}
+
+.menu-toggle{
+    transform: translateX(70%);
+    -webkit-transform: translateX(70%);
+    -moz-transform: translateX(70%);
+    -ms-transform: translateX(70%);
+    -o-transform: translateX(70%);
+}
+/*TERMINA MENU*/
+
+/*INICIA MAIN*/
+
+.hero .info-content{
+    grid-column: 2 /10 ;
+    grid-row:1;
+    padding: 20px;
+}
+
+/*TERMINA MAIN*/
+/*INICIA FORMS */
+
+
+
+
+
+
+}

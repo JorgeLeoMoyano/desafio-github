@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debby productos capilares :liquidos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mediaQueries.css">
+    <script src="https://kit.fontawesome.com/e9be3eb504.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="arriba">
+        <nav class="nav-container">
+            <a href="index.html"  >
+                <img class="logo" src="../img/rosa.png" alt="logo de rosa">
+            </a>
+            <ul class="menu" id="menu">
+                <li><a href="../index.html">inicio</a></li>
+                <li><a href="alisados.html">alisados</a></li>
+                <li><a href="cremosos.html">cremosos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+            <div class="menu-bar" id="menu-bar">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="shop">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </nav>
+    </header class="encabezado">
+    <div id="mainConteiner">
+        <h2 class="titulo-lista">Cremosos:</h2>
+        <p class="parrafo-lista">los siguientes productos estan disponibles actualmente :</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>producto</th>
+                    <th>cantidad</th>
+                    <th>precio</th>
+                </tr>
+            </thead>
+            <tr>
+                <td> Alisado japones</td>
+                <td>250ml</td>
+                <td>$550</td>
+            </tr>
+            <tr>
+                <td>Alisado japones</td>
+                <td>1litro</td>
+                <td>$850</td>
+            </tr>
+            <tr>
+                <td>alisado plastificado 5D</td>
+                <td>250ml</td>
+                <td>$350</td>
+            </tr>
+            <tr>
+                <td>alisado plastificado 5D</td>
+                <td>1litro</td>
+                <td>$950</td>
+            </tr>
+            <tr>
+                <td>alisado brillo espejo</td>
+                <td>250ml</td>
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>alisado brillo espejo</td>
+                <td>1litro</td>
+                <td>$850</td>
+            </tr>
+        </table>
+    </div>
+    <section id="checkbox">
+            <form action="compras.php"method="post" id="precios"></form>
+            <fieldset>
+                <legend>informacion del pedido</legend>
+                <label class="chekbox"  for="Alisado japones 250ml">Alisado japones 250ml</label>
+                <input class="chekbox" type="checkbox" value="Alisado japones 250ml" id="Alisado japones 250ml">
+                <br>
+                <label for="Alisado japones 1Litro">Alisado japones 1Litro</label>
+                <input type="checkbox" value="Alisado japones 1Litro" id="Alisado japones 1Litro">
+                <br>
+                <label for="alisado plastificado 5D 250ml ">alisado plastificado 5D 250ml </label>
+                <input type="checkbox" name="alisado plastificado 5D 250ml " id="alisado plastificado 5D 250ml ">
+                <br>
+                <label for="alisado plastificado 5D 1Litro">alisado plastificado 5D 1Litro</label>
+                <input type="checkbox" name="alisado plastificado 5D 1Litro" id="alisado plastificado 5D 1Litro">
+                <br>
+                <label for="alisado brillo espejo 250ml ">alisado brillo espejo 250ml </label>
+                <input type="checkbox" name="alisado brillo espejo 250ml " id="alisado brillo espejo 250ml ">
+                <br>
+                <label for="alisado brillo espejo 1Litro">alisado brillo espejo 1Litro</label>
+                <input type="checkbox" name="alisado brillo espejo 1Litro" id="alisado brillo espejo 1Litro">
+            </fieldset>
+            <fieldset>
+                <legend>Metodo de envio</legend>
+                <label for="domicilio ">Envio a domicilio</label>
+                <input type="radio" name="envio" value="domicilio" id="domicilio">
+                <br>
+                <label for="local ">retiro en el local</label>
+                <input type="radio" name="envio" value="local" id="local">
+                <br>
+                <select name="localidad" id="localidad">
+                    <option value="caba">ciudad de buenos aires</option>
+                    <option value="bsas">provincia de buenos aires</option>
+                    <option value="interior">interior del pais</option>
+                </select>
+            </fieldset>
+            <label for="mensaje">deja tu mensaje</label><br>
+            <textarea class="textarea" name="comentario" id="comentario" placeholder="deja tu mensaje"></textarea>
+            <br>
+            <input type="submit" value="confirmar envio">
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>

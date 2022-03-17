@@ -1,0 +1,174 @@
+/*estilos generales*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5;
+    background-image: url(../img/rosas4.jpg);
+}
+
+body{
+    font-family: 'Lobster', cursive
+}
+
+/*INICIO MENU*/
+
+.nav-container{
+    background-color: rgba(251, 94, 66, 0.89);
+    display: grid;
+    grid-template-columns: repeat(8.1fr);
+    align-items: center;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+.nav-container a{
+    grid-column: 2;
+}
+
+.menu{
+    grid-column: 4/7;
+    display:flex;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:rgb(27, 2, 2);
+    cursor: pointer;
+
+}
+
+.menu a:hover{
+    color:rgb(255, 255, 255);
+}
+
+.menu-bar{
+    display: none;
+}
+
+.shop{
+    grid-column: 8/9;
+}
+
+/*FIN DEL MENU*/
+
+/*INICIA MAIN*/
+
+.hero{
+    display:grid;
+    height:100vh;
+    background-image:url(../img/minitaconpelo2.jpg);
+    background-size: cover;
+    max-width: 100%;
+    grid-template-columns: repeat(10fr);
+    grid-template-rows: repeat(8,1fr);
+}
+
+.hero .info-content{
+    grid-column:12;
+    grid-row:2;
+    color:rgb(255, 4, 4);
+    font-size: 1.5em;
+}
+
+/*FIN MAIN*/
+/*SECTION*/
+section{
+    display:grid;
+    background-color:rgba(251, 94, 66, 0.89);
+    text-align:center;
+}
+section h2{
+    font-size:3rem;
+    background-color:rgba(172, 52, 31, 0.89);
+}
+
+section p{
+    font-size:2rem;
+}
+/*FIN SECTION*/
+/*FOOTER*/
+footer{
+    display:grid;
+    text-align: center;
+    font-size:1.5rem;
+    background-color: rgba(241, 146, 122, 0.541);
+}
+/*FIN FOOTER*/
+/*INICIA FORM*/
+.formulario{
+    display:grid;
+    font-size: 1.5rem;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(2fr);
+}
+
+.nombreCompleto{
+    grid-column :1;
+    grid-row: 1;
+}
+
+/*lista de productos*/
+#mainConteiner {
+    display:grid;
+    grid-template-columns: repeat(8.1fr);
+    align-items: center;
+}
+
+
+.titulo-lista{
+    font-size:3rem;
+    background-color:rgb(224, 135, 94);
+    text-align:center;
+}
+
+.parrafo-lista{
+    font-size:2rem;
+    background-color:rgb(224, 135, 94);
+    text-align:center;
+}
+
+table {
+    background-color: rgba(251, 94, 66, 0.89);
+    text-align: left;
+    width: 100%;
+}
+th,  td{
+    border:solid 1px black;
+    padding:20px;
+}
+
+thead{
+    background-color:rgba(184, 41, 5, 0.904);
+    border-bottom:solid 5px
+}
+
+tr:hover td{
+    background-color:rgb(177, 54, 17);
+}
+
+/*fin de lista de productos*/
+/*info de envio*/
+#checkbox{
+    display:grid;
+    grid-template-columns: repeat(8.1fr);
+    align-items: center;
+}
+
+.textarea{
+    height: 40px;
+    width: 400px;
+}
+

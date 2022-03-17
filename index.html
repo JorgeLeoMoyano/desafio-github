@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debby prodcutos capilares</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQueries.css">
+    <script src="https://kit.fontawesome.com/e9be3eb504.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+            <nav class="nav-container">
+                <a href="index.html"  >
+                    <img class="logo" src="img/rosa.png" alt="logo de rosa">
+                </a>
+                <ul class="menu" id="menu">
+                    <li><a href="paginas/alisados.html">Alisados</a></li>
+                    <li><a href="paginas/cremosos.html">Cremosos</a></li>
+                    <li><a href="paginas/liquidos.html">liquidos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="paginas/nosotros.html">Nosotros</a></li>
+                </ul>
+                <div class="menu-bar" id="menu-bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="shop">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="hero">
+            <div class="info-content">
+                <h1>¡Bienvenidos a <br> Debby productos capilares!</h1>
+            </div>
+        </main>
+        <section>
+            <h2>Productos 100% puros!</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, repellendus quo fugiat doloribus dolorem soluta error architecto. Perferendis assumenda ducimus inventore aliquid voluptates officiis, beatae, odit delectus doloribus, possimus debitis!</p>
+        </section>
+
+        <section>
+            <div>
+                <form action="envio.php" method="post" id="contacto" class="formulario">
+                    <fieldset class="nombreCompleto">
+                        <legend>datos de contacto</legend>
+                        <label for="nombre">nombre y apellido</label>
+                        <input type="text" placeholder="kiara farias" name="nombre" id="nombre">
+                        <label for="email">Email</label>
+                        <input type="email"  name="email" id="email">
+                        <label for=""></label>
+                    </fieldset>
+                    <fieldset class="comentario">
+                        <label for="mensaje">Deja tu comentario</label><br>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="deja tu mensaje"></textarea>
+                        <input type="submit" value="enviar">
+                        <input type="reset"  value="cancelar">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <h3>siguenos en nuestras redes!</h3>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="img/facebook.png" alt="facebook" />
+                </a>
+                <a href="https://twitter.com">
+                    <img src="img/twitter.png" alt="twitter">
+                </a>
+            </div>
+        </footer>
+
+
+    <script src="js/script.js"></script>
+ </body>
+</html>
